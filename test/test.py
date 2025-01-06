@@ -23,11 +23,11 @@ async def test_project(dut):
     await ClockCycles(dut.clk, 10)
     dut.rst_n.value = 1
 
-    dut._log.info("Test project behavior")
+  #dut._log.info("Test project behavior")
 
     # Set the input values you want to test
-    dut.ui_in.value = 20
-    dut.uio_in.value = 30
+    #dut.ui_in.value = 20
+    #dut.uio_in.value = 30
 
     # Wait for one clock cycle to see the output values
     await ClockCycles(dut.clk, 1)
