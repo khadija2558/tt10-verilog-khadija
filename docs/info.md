@@ -13,7 +13,7 @@ Explain how your project works
 
 ## How to test
 
-Explain how to use your project
+ amrirtha is a mandi
 
 ## External hardware
 
